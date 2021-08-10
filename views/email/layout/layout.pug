@@ -1,0 +1,29 @@
+doctype
+html(lang='en') 
+    head 
+        meta(charset="utf-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+        title= `${gc.appName}`
+        link(rel="stylesheet", href=`${gc.baseUrl}/stylesheets/email.css`)
+
+    body
+        div.main-wrapper 
+
+            table.table-wrapper(width="100%" border="0" cellspacing="0" cellpadding="0")
+                tr 
+                    td
+                        div.header 
+                            img(src=`${gc.logo.email}`)
+                tr 
+                    td
+                        block content
+
+                tr 
+                    td
+                        div.footer
+                            hr
+                            p 
+                            | &copy; #{new Date().getFullYear()}. 
+                            a.link-decorless(href=`${gc.baseUrl}`) #{gc.appName}
+        
+

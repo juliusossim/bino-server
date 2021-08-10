@@ -1,0 +1,40 @@
+.main-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.table-wrapper {
+    margin: auto; 
+    max-width: 650px; 
+    border: 2px solid #f2f2f2; 
+    padding: 15px 50px;
+}
+.header {
+    margin-bottom: 30px;
+}
+.footer {
+    margin-top: 30px;
+}
+.button-wrapper {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button-wrapper td {
+    background-color: #0e67bf;
+    border: 2px solid #0e67bf;
+    border-radius: 3px;
+    padding: 6px;
+    text-align: center;
+}
+.button-wrapper td a {
+    display: block;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.the-team {
+    font-size: 13px;
+}
+.link-decorless {
+    text-decoration: none;
+}
